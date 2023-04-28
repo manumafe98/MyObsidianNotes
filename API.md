@@ -19,7 +19,7 @@ import requests
 
 Normally the API's need certain metadata so when you make the request you get a response.
 - <u><b>Header</b></u>: refers to the metadata that accompanies a request or response. Headers are used to provide additional information about the request or response, such as the content type, authorization credentials, or caching directives.
-	```python
+```python
 api_endpoint = "https://example.com/v1/api"
 
 api_header = {
@@ -28,7 +28,7 @@ api_header = {
 }
 
 r = requests.get(api_endpoint, headers=api_header)
-	```
+```
 
 - <u><b>Parameter</b></u>: are used to send data in an HTTP request, but they are used for different purposes.
 	- json: is used to send data in JSON format in the body of an HTTP request.
