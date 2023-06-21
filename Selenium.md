@@ -20,7 +20,7 @@ Initiate a chrome windows to scrape:
 ```python
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
-driver = webdriver.Chrome(options=self.chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 ```
 
 To open the proper webpage:

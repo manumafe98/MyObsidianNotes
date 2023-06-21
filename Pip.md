@@ -22,3 +22,10 @@ To install the packages from requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
+
+Another way to create the requirements file with only the packages that you project requires to work is:
+```bash
+pip install pipreqs
+pipreqs --savepath requirements.txt
+```
+This has to be run in the path of your project.
