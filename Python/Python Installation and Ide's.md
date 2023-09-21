@@ -1,4 +1,4 @@
-## Instalation
+## Installation
 For Windows go to [Python ORG](https://www.python.org/downloads/) and download it.
 
 For Linux python3 comes installed so you can check what version do you have with:
@@ -6,7 +6,7 @@ For Linux python3 comes installed so you can check what version do you have with
 python3 --version
 ```
 
-If you want a more updated version you can use the update and upgrade commands that correspond to your linux distro.
+If you want a more updated version you can use the update and upgrade commands that correspond to your Linux distro.
 
 ## IDE'S
 An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently.
@@ -19,7 +19,7 @@ For [[Python]] we can use:
 
 - [Anaconda](https://www.anaconda.com/download/) Its like an Ide that has integrated [Jupyter nootebooks](https://jupyter.org/) that its mostly used as a data science tool because you can execute you code as small blocks of code, also as an alternative you can use in Google drive, Google Colaboratory
 
-- [Jupyter Notebooks](https://jupyter.org/) if you want to use it wihout installing anaconda
+- [Jupyter Notebooks](https://jupyter.org/) if you want to use it without installing anaconda
 ```bash
  pip install notebook
  jupyter notebook

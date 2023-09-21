@@ -31,13 +31,13 @@ array = []
 # You can later add content to it because is mutable
 ```
 
-#### Immutables
+#### Immutable
 - Numbers
 - Strings
 - Tuples
 - Frozen sets
 
-#### mutables
+#### mutable
 - Arrays
 - Sets
 - Dictionaries
