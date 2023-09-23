@@ -9,7 +9,7 @@ Array types in [[Java]]
 - ``length`` property
 - don't work well with generics
 
-#### How to an Array
+#### How to create an Array
 
 ```java
 String[] cars = { "Tesla", "Ferrari", "Lamborghini" };
@@ -18,6 +18,14 @@ int[] nums = { 1, 2, 3 };
 
 // 2D Array
 String[][] cars = new String[3][3];
+```
+
+- Array of [[OOP#Object|objects]], using as example a Food object.
+
+```java
+Food[] food = new Food[3];
+// or
+Food[] food = {food1, food2, food3};
 ```
 
 ### ArrayList

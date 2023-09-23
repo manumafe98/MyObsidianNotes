@@ -25,7 +25,6 @@ static void hello(String name, int age) {
 }
 ```
 
-
 When you have a return you have to specify the data type so that's why is ``static int`` instead of ``static void``.
 ```java
 static int sum(int x, int y) {
