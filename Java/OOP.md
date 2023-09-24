@@ -16,7 +16,7 @@ public class Vehicle {
 }
 ```
 
-Then extend the child class with the parent
+Then extend the child class with the parent that's called a ``Subclass``
 ```java
 public class Car extends Vehicle {
 	
