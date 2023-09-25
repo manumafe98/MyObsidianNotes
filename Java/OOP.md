@@ -49,6 +49,42 @@ public class Dog extends Animal{
 ```
 
 
+#### Encapsulation
+
+If when the attributes of the class are hidden or private, but can be accessed only through methods (getters & setters).
+You should make attributes [[Access Modifiers#Private|private]] if you don't have a reason to make them public/protected
+
+```java
+public class Car {
+	private int year:
+	private String model;
+
+	Car(int year, String model) {
+		this.setYear(year);
+		this.setModel(model);
+	}
+	
+	public int getYear() {
+		return year;
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+}
+```
+
+So then you can access those attributes or set them only through [[Methods|methods]]
+
+
 ### Object
 
 A ``object`` is an instance of a class that may contain attributes and methods.
@@ -78,6 +114,50 @@ System.out.println(diceroller.toString()); // explicitly
 
 Sometimes for ``toString()`` is applied what's called [[OOP#Classes#method overriding|method overriding]] 
 That means that you create the method ``toString()`` to display the attributes of the object itself, instead of the address in memory.
+
+
+#### Polymorphism
+
+The ability of an object to identify as more than one type
+
+```java
+public class Car extends Vehicle {
+
+}
+
+public class Bicycle extends Vehicle {
+
+}
+```
+
+So for example if we want to make an array of different objects 
+```java
+
+public class Main {
+	public static void main(String[] args) {
+		Car car = new Car();
+		Bicycle bicycle = new Bicycle();
+
+		Vehicle[] racers = {car, bicycle} // We use the parent class
+	}
+}
+```
+
+
+#### Dynamic Polymorphism
+
+Dynamic: after compilation(during runtime).
+You declare an object and make space for it in memory even if you don't know what type of object do you want.
+
+```java
+Animal animal;
+```
+
+And then after certain condition you initialize the animal with a certain subclass, example:
+
+```java
+animal = new Cat();
+```
 
 
 ### Constructor

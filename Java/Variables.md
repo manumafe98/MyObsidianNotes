@@ -97,4 +97,4 @@ public class DiceRoller {
 }
 ```
 
-You can also declare local variables and pass them to other methods throw arguments.
+You can also declare local variables and pass them to other methods through arguments.

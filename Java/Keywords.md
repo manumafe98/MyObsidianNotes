@@ -27,7 +27,7 @@ public class Main {
 		Friend friend2 = new Friend("Pepe");
 		Friend friend3 = new Friend("Michael");
 
-		System.out.println(Friend.numberOfFriends); // Accesed throw class
+		System.out.println(Friend.numberOfFriends); // Accesed through class
 		// Output = 3
 
 		Friend.displayFriends();
@@ -35,7 +35,7 @@ public class Main {
 	}
 }
 ```
-So if you delete the static keyword from ``numberOfFriends`` then you would have to access that variable throw the ``friend1`` for example and it would display 1, instead of 3.
+So if you delete the static keyword from ``numberOfFriends`` then you would have to access that variable through the ``friend1`` for example and it would display 1, instead of 3.
 
 ### Void
 its used when you don't want to return a value, but you have to specify it.
@@ -79,7 +79,7 @@ public class Hero extends Person {
 Cannot be instantiated but they can have a subclass. Used classes that are to vague, for example a Vehicle you want a subclass to inherit some methods/attributes but do not want to be instantiated itself. 
 
 #### Abstract methods
-Are declared but whiteout an implementation
+Are declared but without an implementation
 
 
 ```java
