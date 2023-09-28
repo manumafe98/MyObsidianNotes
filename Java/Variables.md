@@ -39,7 +39,7 @@ System.out.println(w);
 They provide us a way to use primitive [[Variables#Data Types|data types]] as reference ones
 - Pros: 
 	- Reference data types contain useful methods
-	- Can be used with collections (ex. [[Arrays#ArrayList|ArrayList]])
+	- Can be used with collections (ex. [[Array#ArrayList|ArrayList]])
 - Cons:
 	- Are a lot slower than primitive
 

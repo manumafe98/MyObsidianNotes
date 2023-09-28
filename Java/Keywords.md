@@ -35,7 +35,7 @@ public class Main {
 	}
 }
 ```
-So if you delete the static keyword from ``numberOfFriends`` then you would have to access that variable through the ``friend1`` for example and it would display 1, instead of 3.
+So if you delete the static keyword from ``numberOfFriends`` then you would have to access that variable through the ``friend1`` for example and it would display 1, instead of 3. Also used to avoid the declaration of the object, so you can call it directly from the main class.
 
 ### Void
 its used when you don't want to return a value, but you have to specify it.
