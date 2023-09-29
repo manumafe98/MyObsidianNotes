@@ -74,3 +74,14 @@ System.out.printf("%s", myString);
 System.out.printf("%f", myDouble);
 ```
 
+#### Pass multiple arguments
+
+```java
+int myInt1 = 1;
+int myInt2 = 2;
+int myInt3 = 3;
+
+System.out.printf("%d %d %d", myInt1, myInt2, myInt3);
+
+// Output: 1 2 3
+```

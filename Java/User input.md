@@ -20,3 +20,11 @@ public class UserInput {
 ```
 
 ``nextLine`` is for strings but there are many other methods like ``nextDouble``, ``nextInt``
+
+If you use ``nextLine`` after ``nextInt`` immediately then a ``\n`` is taken as the value of ``nextLine`` so to avoid this you can add another ``nextLine``
+
+```java
+int x = scanner.nextInt();
+scanner.nextLine();
+String name = scanner.nextLine();
+```
