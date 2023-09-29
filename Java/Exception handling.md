@@ -40,3 +40,12 @@ public class Main {
   }
 }
 ```
+
+
+### Throws
+
+The `throws` clause is used to declare that a method can potentially throw certain types of exceptions, but it does not handle those exceptions itself.
+
+```java
+public static void main(String[] args) throws FileNotFoundException, IOException {
+```
