@@ -15,6 +15,12 @@ int y = 150; // initialization
 
 ![[Java_data_types.jpeg]]
 
+``Int`` minimum number: -2147483648
+``Int`` minimum number: 2147483647
+
+``Long`` minimum number: -9223372036854775808L
+``Long`` maximum number: 9223372036854775807L
+
 
 ### Switch variables
 
@@ -98,3 +104,19 @@ public class DiceRoller {
 ```
 
 You can also declare local variables and pass them to other methods through arguments.
+
+
+### Convert data types
+
+To convert a string into a ``Integer`` you can use
+```java
+String text = "123";
+int x = Integer.parseInt(text);
+```
+
+to convert a integer into a ``String`` you can use
+
+```java
+int x = 12;
+String str = String.valueOf(x);
+```

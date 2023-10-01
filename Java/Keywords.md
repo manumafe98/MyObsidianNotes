@@ -37,6 +37,32 @@ public class Main {
 ```
 So if you delete the static keyword from ``numberOfFriends`` then you would have to access that variable through the ``friend1`` for example and it would display 1, instead of 3. Also used to avoid the declaration of the object, so you can call it directly from the main class.
 
+#### Static Initialization Blocks
+
+A _static initialization block_ is a normal block of code enclosed in braces, `{ }`, and preceded by the `static` keyword. Here is an example:
+
+```java
+    static int B;
+    static int H;
+    static boolean flag;
+    static 
+    {
+        Scanner scanner = new Scanner(System.in);
+        B = scanner.nextInt();
+        H = scanner.nextInt();
+        if (B < 0 || H< 0 ) {
+            System.out.println("message");
+        } else {
+            flag = true;
+        }
+    }
+```
+
+A static initialization block in Java is not like a method that you call explicitly. Instead, it is a block of code that is executed when the class is loaded into memory, and it runs before any instance of the class is created or any static members of the class are accessed. The purpose of a static initialization block is to initialize static variables or perform some one-time setup for the class.
+
+A class can have any number of static initialization blocks, and they can appear anywhere in the class body. 
+
+
 ### Void
 its used when you don't want to return a value, but you have to specify it.
 
