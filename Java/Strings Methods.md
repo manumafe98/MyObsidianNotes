@@ -14,7 +14,9 @@ int total_chars = name.length();
 System.out.println(total_chars);
 ```
 
-Checks the character at index 0
+#### charAt()
+
+Check for characters at a certain index like a[0] in python
 ```java
 char what_char_at = name.charAt(0);
 System.out.println(what_char_at);
@@ -54,4 +56,55 @@ Replaces the char o set of chars for a new value
 ```java
 String new_name = name.replace("el", "");
 System.out.println(new_name);
+```
+
+#### substring()
+
+Takes two parameters, the beginning index and end index.
+```java
+String name = "manuel";
+String firstLetter = name.substring(0, 1);
+
+// Output = m
+```
+
+This for example could be useful to capitalize a name
+
+```java
+String name = "manuel";
+String firstLetter = name.substring(0, 1).toUppercase();
+
+System.out.println(firstLetter + name.substring(1))
+
+// Ouput = Manuel
+```
+
+If you don't specify a end index would take all the string to the end.
+
+#### compareTo()
+
+This method is useful to compare two strings lexicographically (That means who comes first), for example apple < banana, apple is smaller cause the a comes after the b in the dictionary.
+
+This is an example usage of ``compareTo`` 
+
+```java
+String apple = "apple";
+String banana = "banana";
+
+if (apple.compareTo(banana) < 0) {
+	System.out.println("Apple is smaller");
+} else if (apple.comapreTo(banana) > 0) {
+	System.out.println("Apple is bigger");
+}
+```
+
+#### split()
+
+Split is a string method that splits the string into a [[Array]] of strings depending on the given the regular expression that you passed as parameters.
+
+```java
+String test = "we are testing";
+String [] = test.split(" ");
+
+// Output: {"we", "are", "testing"}
 ```
