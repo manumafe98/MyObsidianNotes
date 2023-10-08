@@ -198,5 +198,69 @@ For the Supplier you use the ``get`` method.
 
 
 ### Streams
+
+A stream is an abstraction that focuses on the all instead of the parts, utilizes it powers functional programming and functional interfaces.
+They are mainly used with [[Collections|collections]].
+
+How do they work?
+- First you apply the stream to a collection ``.stream()``
+- Then use the intermediate operators to do what you want
+- Then collect what remained into a new collection ``.collect()``
+
+#### Intermediate Operators
+##### map
+Returns a stream consisting of the results of applying the given [[Functional Programming#Functional interfaces#Function|function]] to the elements of this stream
+
+##### filter
+Returns a stream consisting of the elements of this stream that match the given [[Functional Programming#Functional interfaces#Predicate|predicate]]
+
+#### Collect
+Uses collectors to transform your new output into a collection.
+
+#### Example
+Here is a complete example using all we mentioned before
+```java
+List<Person> people = MockData.getPeople();
+
+List<PersonDTO> dtosOlderThan18 = people.stream()
+	.map(PersonDTO::map)
+	.filter(person -> person.getAge() > 18)
+	.collect(Collectors.toList());
+
+dtosOlderThan18.forEach(System.out::println);
+```
+with map we transform a Person into a PersonDTO, then with filter we only want the people that are older than 18, and finally we use collectors to collect our output into a new list.
+
 ### Lambdas
 
+Were introduced primarily to simplify and enhance the way you work with functional interfaces and to promote a more functional programming style in the language.
+They are a concise way to represent an anonymous function or a small block of code that can be passed as an argument to a method or assigned to a variable.
+
+This is a lambda
+```java
+name -> name.length() > 5
+```
+
+And this is how you would normally write this logic
+```java
+for (String name : names) {
+	if (name.length() > 5) {
+		return true;
+	} else {
+		return false;
+	}
+}
+```
+
+#### Method Reference
+provide a shorthand way to refer to methods or constructors. They simplify the use of lambda expressions when you want to call an existing method or constructor.
+
+This is what you would do with lambdas
+```java
+names.forEach(name -> System.out.println(name));
+```
+
+And this with method reference
+```java
+names.forEach(System.out::println);
+```
