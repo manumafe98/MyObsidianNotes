@@ -13,6 +13,8 @@
 ```java
 String[] cars = { "Tesla", "Ferrari", "Lamborghini" };
 String[] test = new String[3]; //this way you create it empty
+// the number is the amount of items that holds the array not the last index
+
 int[] nums = { 1, 2, 3 };
 
 // 2D Array

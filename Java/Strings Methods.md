@@ -108,3 +108,14 @@ String [] = test.split(" ");
 
 // Output: {"we", "are", "testing"}
 ```
+
+#### StringBuilder
+
+it has some other methods, like `append` and ``reverse`` that are pretty useful 
+
+```java
+import java.lang.StringBuilder;
+
+StringBuilder str = new StringBuilder("string");
+````
+

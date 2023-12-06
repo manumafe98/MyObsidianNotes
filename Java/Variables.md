@@ -120,3 +120,12 @@ to convert a integer into a ``String`` you can use
 int x = 12;
 String str = String.valueOf(x);
 ```
+
+to convert a char to ``int`` you can use
+```java
+char x = '9';
+
+int z = x - '0';
+
+// z = 9
+```

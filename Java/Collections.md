@@ -18,6 +18,10 @@ When you declare and instantiate a collection using the interface type (`List` o
 
 It allows you to easily switch the underlying implementation without affecting the rest of your code you can change from an `HashSet` to a `TreeSet`. This applies to every collection type.
 
+### Hierarchy
+
+![[Java_collections_hierarchy.png]]
+
 ### HashMap
 
 Is a collection of key, value pairs in [[Java]] also named map or dictionary.
