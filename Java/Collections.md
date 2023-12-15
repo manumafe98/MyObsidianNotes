@@ -1,7 +1,7 @@
   
 In [[Java]], a collection is a framework that provides classes and interfaces to store, manipulate, and organize groups of objects. Collections are essential for managing and working with data in various data structures efficiently.
 
-One of the things about collections is that you can instantiate or declare the object with the [[Interfaces|interface]] as well as the concrete [[Classes|class]] type.
+One of the things about collections is that you can instantiate or declare the object with the [[Interfaces|interface]] as well as the concrete [[Python/Classes|class]] type.
 
 ```java
 import java.util.HashSet;

@@ -1,5 +1,5 @@
 
-In [[Java]] refers to the process of converting an [[OOP#Object|object]]'s state (its fields and data) into a byte stream, which can be easily stored in a file (``.ser``), transmitted over a network, or saved in a database.
+In [[Java]] refers to the process of converting an [[Object|object]]'s state (its fields and data) into a byte stream, which can be easily stored in a file (``.ser``), transmitted over a network, or saved in a database.
 
 To make the object serializable you have to import the ``Serializable`` [[Interfaces|interface]] and implement it to the class.
 ```java

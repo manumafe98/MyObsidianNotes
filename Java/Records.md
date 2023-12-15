@@ -1,5 +1,5 @@
 
-A record in [[Java]] is a type of [[OOP#Classes|class]] that allows you to reduce boilerplate code.
+A record in [[Java]] is a type of [[Java/OOP/Classes|class]] that allows you to reduce boilerplate code.
 
 For example this will be your implementation of a class if you want to achieve the same functionality of a record
 
@@ -63,7 +63,7 @@ And this is the implementation with record instead
 public record CarRecord(String model, int year){}
 ```
 
-For records Java creates this canonical [[OOP#Constructor|constructor]] in the background, setting the fields based on the components that you passed for the record.
+For records Java creates this canonical [[Constructor|constructor]] in the background, setting the fields based on the components that you passed for the record.
 
 ```java
 public Car(String model, int year) {

@@ -1,5 +1,5 @@
 
-Enables types ([[Classes]] and [[Interfaces]]) to be parameters, when defining
+Enables types ([[Python/Classes]] and [[Interfaces]]) to be parameters, when defining
 - Classes
 - Interfaces
 - [[Methods]]

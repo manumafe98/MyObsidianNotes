@@ -74,7 +74,7 @@ void hello() {
 
 
 ### Super
-refers to the superclass (parent) of an object very similar to the "this" keyword, used with [[OOP#Classes#Inheritance|inheritance]]. Works with [[Variables]] and [[Methods]].
+refers to the superclass (parent) of an object very similar to the "this" keyword, used with [[Java/OOP/Classes#Inheritance|inheritance]]. Works with [[Variables]] and [[Methods]].
 
 ```java
 public class Person {

@@ -1,5 +1,5 @@
 They are like [[Java]] [[Keywords]] and add a layer of security to our programs.
-To a better understanding of ``Access Modifiers`` check [[Packages]] and [[OOP#Classes|Classes]]
+To a better understanding of ``Access Modifiers`` check [[Packages]] and [[Java/OOP/Classes|Classes]]
 
 ![[Java_access_modifiers.jpeg]]
 
