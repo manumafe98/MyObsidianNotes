@@ -1,3 +1,4 @@
+
 Some Strings methods in [[Java]]
 
 Checks for equality against a variable and outputs a ``boolean``

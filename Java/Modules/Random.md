@@ -1,20 +1,7 @@
 
-Some modules in [[Java]]
+is a module of [[Java]] that generates pseudo random integers.
+To check more [java.util.Random](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html)
 
-### Math
-
-```java
-int x = 3;
-int y = 10;
-
-Math.max(x, y);
-Math.min(x, y);
-Math.sqrt(y);
-```
-
-### Random
-
-Generates pseudo random integers
 
 | Random           | Pseudo-random |
 | ---------------- | ------------- |
@@ -38,4 +25,15 @@ Roll a six dice
 
 ```java
 int u = random.nextInt(6) + 1; // does not include the 6 and starts with 0
+// so adding 1 makes the roll between 1 and 6 inclusive
 ```
+
+As you cannot add a minimum number parameter what you can do is identify the maximum number you want to roll and add the initial one.
+
+For example I want to roll between 100 and 200(inclusive).
+
+```java
+return random.nextInt(101) + 100;
+```
+
+So if it rolls 0 the minimum would be 100 and if rolls 100 the maximum 200.

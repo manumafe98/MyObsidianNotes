@@ -30,4 +30,26 @@ switch (day) {
 }
 ```
 
+In a switch you can use ``return`` statements to avoid the break, if comply with what the methods want to do.
 
+Also you can define multiple cases that match the same result like this 
+```java
+switch (shirtNum) {
+	case 5, 6:
+		return "Midfielders",
+}
+```
+
+And also use arrows like this
+```java
+switch (num) {
+	case 1 -> return "one";
+}
+```
+
+Or to avoid the repetition of ``return``
+```java
+return switch (num) {
+	case 1 -> "one";
+}
+```

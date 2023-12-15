@@ -1,5 +1,5 @@
 
-[[Java]] arrays
+[[Java]] arrays are a type of [[Collections]]
 
 - Have a fixed size, you have to specify the size in the creation
 - Can store elements of primitive [[Variables#Data Types|data types]] as well as objects
