@@ -150,3 +150,4 @@ Works pretty much the same as a HashSet but sorts the order of the elements in t
 ### LinkedList
 
 The LinkedList object in Java works as a ``Doubly Linked List``. Here you can see the pros and cons of the time/space complexity when used on [[Data Structures Time and Space Complexity#Operations|operations]] 
+

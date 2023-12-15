@@ -28,3 +28,13 @@ Food[] food = new Food[3];
 // or
 Food[] food = {food1, food2, food3};
 ```
+
+### Convert an array into a list
+
+```java
+String[] arr = {"1", "2", "3"};
+
+List<String> list = Arrays.asList(arr);
+```
+
+This could be useful cause collections has different methods, depending on the situation.

@@ -21,6 +21,11 @@ int y = 150; // initialization
 ``Long`` minimum number: -9223372036854775808L
 ``Long`` maximum number: 9223372036854775807L
 
+### Nullability 
+
+``Primitive`` all have a default value and can never be ``Null``
+``Reference`` contain the memory address of an object and can have the value ``Null``
+
 
 ### Switch variables
 
@@ -128,4 +133,18 @@ char x = '9';
 int z = x - '0';
 
 // z = 9
+```
+
+to convert ``Binary`` to ``Integer`` you can use
+```java
+String x = "1001";
+
+int y = Integer.parseInt(x, 2);
+```
+
+to convert ``Integer`` to ``Binary`` you can use
+```java
+int x = 1;
+
+Sring y = Integer.toBinaryString(x);
 ```

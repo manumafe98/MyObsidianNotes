@@ -109,6 +109,18 @@ String [] = test.split(" ");
 // Output: {"we", "are", "testing"}
 ```
 
+#### join()
+
+Join an [[Array]] into a String.
+
+```java
+String[] strArr = {"A", "B", "C"};
+System.out.println(String.join(" ", strArr));
+
+// Ouput: A B C (as a String)
+```
+
+
 #### StringBuilder
 
 it has some other methods, like `append` and ``reverse`` that are pretty useful 
