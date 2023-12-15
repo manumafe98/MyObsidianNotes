@@ -100,6 +100,9 @@ food.set(2, "Hotdog"); // with set you replace the value in the index 2 with the
 food.remove(2); // remove the item in that index
 food.clear(); // remove all items in the array
 
+food.indexOf("Hotdog"); // Ouput 2, if the element does not exist -1
+food.contains("Hotdog"); // Output true
+
 // Create a 2D ArrayList
 ArrayList<ArrayList<String>> grocerylist = new ArrayList<ArrayList<String>>();
 ```
