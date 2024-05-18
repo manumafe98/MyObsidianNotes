@@ -1,4 +1,4 @@
-[[Python]] decorators are a way to modify the behavior of a function or class without changing its source code. They are essentially [[Functions]] that take a function as an argument and return a new function that adds some additional behavior to the original function.
+[[Python]] decorators are a way to modify the behavior of a function or class without changing its source code. They are essentially [[Python/Functions]] that take a function as an argument and return a new function that adds some additional behavior to the original function.
 
 Example:
 ```python

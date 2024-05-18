@@ -32,7 +32,7 @@ java.util.HashMap;
 ```
 
 Then instantiate the object.
-It only works with [[Variables#Wrapper classes|reference data types]] as you can see between <>
+It only works with [[Java/Variables#Wrapper classes|reference data types]] as you can see between <>
 ```java
 Hashmap<String, Integer> employees = new Hashmap<>();
 ```
@@ -78,7 +78,7 @@ employees.putIfAbsent("Steve", 222);
 
 ### ArrayList
 
-Some of the differences between an [[Array]] and a ArrayList
+Some of the differences between an [[Java/Array]] and a ArrayList
 - Dynamic in size
 - Can only store objects or reference data types
 - You can access elements with ``.get(0)`` a method and index
@@ -153,4 +153,11 @@ Works pretty much the same as a HashSet but sorts the order of the elements in t
 ### LinkedList
 
 The LinkedList object in Java works as a ``Doubly Linked List``. Here you can see the pros and cons of the time/space complexity when used on [[Data Structures Time and Space Complexity#Operations|operations]] 
+
+
+### Make a copy of a collection
+
+```java
+List<SomeBean> newList = new ArrayList<SomeBean>(otherList);
+```
 

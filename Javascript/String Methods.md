@@ -1,0 +1,8 @@
+
+#### Slice
+
+#### trim
+
+#### split
+
+#### replace

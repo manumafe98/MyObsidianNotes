@@ -9,7 +9,7 @@ boolean result = name.equals("Manuel");
 System.out.println(result);
 ```
 
-Outputs the length of the [[Variables|variable]]
+Outputs the length of the [[Java/Variables|variable]]
 ```java
 int total_chars = name.length();
 System.out.println(total_chars);
@@ -101,7 +101,7 @@ if (apple.compareTo(banana) < 0) {
 
 #### split()
 
-Split is a string method that splits the string into a [[Array]] of strings depending on the given the regular expression that you passed as parameters.
+Split is a string method that splits the string into a [[Java/Array]] of strings depending on the given the regular expression that you passed as parameters.
 
 ```java
 String test = "we are testing";
@@ -112,7 +112,7 @@ String [] = test.split(" ");
 
 #### join()
 
-Join an [[Array]] into a String.
+Join an [[Java/Array]] into a String.
 
 ```java
 String[] strArr = {"A", "B", "C"};

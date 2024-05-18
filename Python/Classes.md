@@ -1,4 +1,4 @@
-[[Python]] classes consist of attributes (variables) and methods ([[Functions]]) that define the behavior of the objects created from them. The attributes store the data for each object, and the methods define the operations that can be performed on the object's data.
+[[Python]] classes consist of attributes (variables) and methods ([[Python/Functions]]) that define the behavior of the objects created from them. The attributes store the data for each object, and the methods define the operations that can be performed on the object's data.
 
 Example:
 ```python
@@ -19,5 +19,5 @@ my_car = Car("Toyota", "Corolla")
 my_car.start_engine() # output: Toyota Corolla engine started
 ```
 
-You can use all the arguments available for functions to classes: [[Functions#Arguments|Arguments]]
+You can use all the arguments available for functions to classes: [[Python/Functions#Arguments|Arguments]]
 

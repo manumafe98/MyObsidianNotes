@@ -3,7 +3,7 @@ Enables types ([[Python/Classes]] and [[Interfaces]]) to be parameters, when def
 - Classes
 - Interfaces
 - [[Methods]]
-The benefit is to eliminate the need to create multiple versions of classes or methods for different [[Variables#Data Types|data types]]. So you can use the same one for all reference data types.
+The benefit is to eliminate the need to create multiple versions of classes or methods for different [[Java/Variables#Data Types|data types]]. So you can use the same one for all reference data types.
 
 ### Generic methods
 

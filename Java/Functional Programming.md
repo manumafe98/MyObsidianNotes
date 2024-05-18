@@ -72,7 +72,7 @@ public interface Consumer<T> {
     void accept(T t);
 ```
 
-This interfaces only accept [[Variables#Data Types|reference data types]] because when using primitives you cannot pass null values.
+This interfaces only accept [[Java/Variables#Data Types|reference data types]] because when using primitives you cannot pass null values.
 
 #### Function
 Represents a function that accepts one argument and produces a result.

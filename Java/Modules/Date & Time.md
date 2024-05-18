@@ -38,7 +38,7 @@ printer.format(date);
 ```
 
 
-### Format character cheat sheet
+#### Format character cheat sheet
 
 This table represents a cheat sheet to format date and time.
 
@@ -60,3 +60,17 @@ This table represents a cheat sheet to format date and time.
 | `zz`           | Short time zone                 | GMT-08:00                     |
 
 The are other useful applications like for example if you use ``dd`` instead of ``d`` the day if is lower than 10 would add a 0 before: ``09`` 
+
+### ChronoUnit
+
+A standard set of date periods units
+To check all the methods and parameters go to the official doc [java.time.temporal.ChronoUnit](https://docs.oracle.com/javase/8/docs/api/java/time/temporal/ChronoUnit.html)
+
+Used for example when trying to sum a unit(SECONDS, MINUTES, HOURS) to a date.
+So for example if you want to sum ``1.000.000.000`` seconds to a certain date.
+
+```java
+dateTime.plus(gigasecond, ChronoUnit.SECONDS);
+```
+
+datetime here represents a [[Date & Time#LocalDateTime|LocalDateTime]] object.

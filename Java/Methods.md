@@ -35,7 +35,7 @@ static int sum(int x, int y) {
 
 #### Overloaded methods
 
-Are methods that share the same name but have different parameters, could vary the amount of parameters, the [[Variables#Data Types|data type]] of them or even the order.
+Are methods that share the same name but have different parameters, could vary the amount of parameters, the [[Java/Variables#Data Types|data type]] of them or even the order.
 ``method name + parameters = method signature``
 
 ```java

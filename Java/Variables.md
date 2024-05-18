@@ -47,10 +47,10 @@ System.out.println(w);
 
 ### Wrapper classes
 
-They provide us a way to use primitive [[Variables#Data Types|data types]] as reference ones
+They provide us a way to use primitive [[Java/Variables#Data Types|data types]] as reference ones
 - Pros: 
 	- Reference data types contain useful methods
-	- Can be used with collections (ex. [[Array#ArrayList|ArrayList]])
+	- Can be used with collections (ex. [[Java/Array#ArrayList|ArrayList]])
 - Cons:
 	- Are a lot slower than primitive
 
@@ -120,7 +120,6 @@ int x = Integer.parseInt(text);
 ```
 
 to convert a integer into a ``String`` you can use
-
 ```java
 int x = 12;
 String str = String.valueOf(x);

@@ -31,7 +31,10 @@ That means that you create the method ``toString()`` to display the attributes o
 
 ### Polymorphism
 
-The ability of an object to identify as more than one type.
+is a concept by which we can perform a _single action in different ways_. 
+Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+So for example we can have a ``drive`` method in a parent class ``Vehicle`` that is going to be override in the child classes with their own implementation. 
 
 ```java
 public class Car extends Vehicle {
@@ -43,7 +46,8 @@ public class Bicycle extends Vehicle {
 }
 ```
 
-So for example if we want to make an array of different objects 
+So for example if we want to make an array of different objects.
+
 ```java
 
 public class Main {

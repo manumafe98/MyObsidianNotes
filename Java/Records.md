@@ -97,4 +97,4 @@ public static void printWhatever(){
 }
 ```
 
-Records are implicitly [[Variables#Final keyword|final]] 
+Records are implicitly [[Java/Variables#Final keyword|final]] 

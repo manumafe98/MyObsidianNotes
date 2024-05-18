@@ -1,4 +1,4 @@
-An `enum` in [[Java]] is a special [[Java/OOP/Classes|class]] that represents a group of **constants** (unchangeable [[Variables|variables]], like [[Variables#Final keyword|final]])
+An `enum` in [[Java]] is a special [[Java/OOP/Classes|class]] that represents a group of **constants** (unchangeable [[Java/Variables|variables]], like [[Java/Variables#Final keyword|final]])
 
 To create an `enum`, use the `enum` keyword (instead of class or interface), and separate the constants with a comma. Note that they should be in uppercase letters
 
@@ -23,7 +23,7 @@ public class Main {
 ```
 
 
-Just like regular Java classes ``enums`` can have fields
+Just like regular Java classes ``enums`` can have fields and [[Methods|methods]]
 ```java
 public enum Subjects {
 	Math(8),

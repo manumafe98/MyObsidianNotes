@@ -1,4 +1,4 @@
-[[Python]] docstrings are multi-line strings that are used to document Python [[Functions]], methods, classes, and modules. They are enclosed in triple quotes and placed immediately after the function, method, class, or module definition.
+[[Python]] docstrings are multi-line strings that are used to document Python [[Python/Functions]], methods, classes, and modules. They are enclosed in triple quotes and placed immediately after the function, method, class, or module definition.
 
 ```python
 def fibonacci(n): 

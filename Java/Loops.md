@@ -34,7 +34,7 @@ Is essentially the same as the while loop but the block executes as least one ti
 
 ### For Each
 
-Traversing technique to iterate through the elements in an [[Array#Array|array]]/[[Collections|collection]] has less steps, it's more readable but less flexible.
+Traversing technique to iterate through the elements in an [[Java/Array#Array|array]]/[[Collections|collection]] has less steps, it's more readable but less flexible.
 
 ```java
 for (String animal : animals) { // the ":" is like and in

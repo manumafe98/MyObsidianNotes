@@ -2,7 +2,7 @@
 
 ### Static
 is used to create class-level properties and methods that are shared among all instances (objects) of that class and can be accessed through the class itself, not just through instances. It's like features of the blueprint rather than features of individual objects created from that blueprint.
-You can apply this to [[Variables]] , [[Methods]] and classes
+You can apply this to [[Java/Variables]] , [[Methods]] and classes
 
 ```java
 public class Friend {
@@ -74,7 +74,7 @@ void hello() {
 
 
 ### Super
-refers to the superclass (parent) of an object very similar to the "this" keyword, used with [[Java/OOP/Classes#Inheritance|inheritance]]. Works with [[Variables]] and [[Methods]].
+refers to the superclass (parent) of an object very similar to the "this" keyword, used with [[Java/OOP/Classes#Inheritance|inheritance]]. Works with [[Java/Variables]] and [[Methods]].
 
 ```java
 public class Person {

@@ -2,7 +2,7 @@
 [[Java]] arrays are a type of [[Collections]]
 
 - Have a fixed size, you have to specify the size in the creation
-- Can store elements of primitive [[Variables#Data Types|data types]] as well as objects
+- Can store elements of primitive [[Java/Variables#Data Types|data types]] as well as objects
 - Elements can be accessed using index (faster)
 - Less flexible when you want to resize
 - ``length`` property
@@ -38,3 +38,12 @@ List<String> list = Arrays.asList(arr);
 ```
 
 This could be useful cause collections has different methods, depending on the situation.
+
+### Convert a integer into an array of digits
+
+```java
+int[] digits = Integer.toString(numberToCheck)
+					.chars()
+					.map(i -> i - '0')
+					.toArray();
+```

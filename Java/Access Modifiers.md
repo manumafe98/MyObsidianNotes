@@ -48,7 +48,7 @@ public class C {
 This for example will be visible by all the files in our structure if C is instantiated.
 
 ### Protected
-Can be accessed by classes in other packages if that class/classes are subclasses of where the protected [[Variables|variable]]/[[Methods|method]] is defined.
+Can be accessed by classes in other packages if that class/classes are subclasses of where the protected [[Java/Variables|variable]]/[[Methods|method]] is defined.
 
 ```java
 package package1;
