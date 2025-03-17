@@ -21,7 +21,7 @@ int[] nums = { 1, 2, 3 };
 String[][] cars = new String[3][3];
 ```
 
-- Array of [[Object|objects]], using as example a Food object.
+- Array of [[Java/OOP/Object|objects]], using as example a Food object.
 
 ```java
 Food[] food = new Food[3];

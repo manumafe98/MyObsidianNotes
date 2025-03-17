@@ -1,5 +1,5 @@
 
-A constructor in [[Java]] is a ``special method`` that is used to initialize objects. The constructor is called when an object of a [[Java/OOP/Classes|class]] is created. It can be used to set initial values for [[Object|object]] attributes.
+A constructor in [[Java]] is a ``special method`` that is used to initialize objects. The constructor is called when an object of a [[Java/OOP/Classes|class]] is created. It can be used to set initial values for [[Java/OOP/Object|object]] attributes.
 
 ```java
 public class Human {

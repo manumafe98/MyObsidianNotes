@@ -52,7 +52,7 @@ public class Dog extends Animal{
 
 ### Encapsulation
 
-If when the attributes of the class are hidden or private, but can be accessed only through methods (getters & setters).
+Is when the attributes of the class are hidden or private, but can be accessed only through methods (getters & setters).
 You should make attributes [[Access Modifiers#Private|private]] if you don't have a reason to make them public/protected
 
 ```java

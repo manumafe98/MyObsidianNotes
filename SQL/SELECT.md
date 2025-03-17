@@ -1,4 +1,4 @@
-is the cornerstone of the [[DQL]] portion of [[SQL]], it allows you to retrieve specific data from your database tables.
+is the cornerstone of the [[DQL]] portion of [[SQL]], it allows you to retrieve specific data from your database tables. For more in-depth clauses and functions go to the following [doc](https://www.javatpoint.com/sql-select-distinct)
 
 ```sql
 SELECT * FROM Film;

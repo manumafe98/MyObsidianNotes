@@ -14,7 +14,7 @@ public class Main {
 }
 ```
 
-When you declare and instantiate a collection using the interface type (`List` or `Set`), you are following the principle of programming to an interface rather than an implementation. This is a fundamental concept in [[OOP]] that promotes loose coupling and flexibility in your code.
+When you declare and instantiate a collection using the interface type (`List` or `Set`), you are following the principle of programming to an interface rather than an implementation. This is a fundamental concept in [[Javascript/OOP]] that promotes loose coupling and flexibility in your code.
 
 It allows you to easily switch the underlying implementation without affecting the rest of your code you can change from an `HashSet` to a `TreeSet`. This applies to every collection type.
 
